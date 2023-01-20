@@ -5,8 +5,8 @@ include_once 'pokemon.php';
 <html>
 	<head>
 		<title>Helios by HTML5 UP</title>
-        <link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="assets/css/mains.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscripts.css" /></noscript>
 		<meta charset="utf-8" />
     </head>
 

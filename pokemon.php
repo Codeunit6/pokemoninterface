@@ -22,7 +22,7 @@ class Pokemon implements Funciones{
 
     public function mostrarPokemon(){
         // Mostrar los datos del pokemon
-        echo "<div class='pokemon'>";
+        echo "<div class='pokemon' >";
         echo "<img src='$this->imagen' alt='$this->nombre'>";
         echo "<h2>$this->nombre</h2>";
         echo "<p><strong>Vida:</strong> $this->vida</p>";
@@ -34,7 +34,7 @@ class Pokemon implements Funciones{
 }
 
 function mostrarPokemonAtributos($imagen, $nombre, $tipo, $habilidades, $vida, $ataque, $defensa, $velocidad){
-        echo "<article class='zoom'> <a href='#' class='image featured'><img src='$imagen' alt='' /></a>";
+        echo "<article class='zoom'> <a href='detalle.php?nombre=$nombre&tipo=$tipo&habilidades=$habilidades&imagen=$imagen&vida=$vida&ataque=$ataque&defensa=$defensa&velocidad=$velocidad' class='image featured'><img src='$imagen' alt='' /></a>";
         echo "<header> <h3><a href='#'>'$nombre'</a></h3> </header>";
         echo "<p><strong>Tipo:</strong> $tipo</p>";
         echo "<p><strong>Habilidades:</strong> $habilidades</p>";
